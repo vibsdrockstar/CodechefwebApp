@@ -2,7 +2,7 @@ import webbrowser
 import time
 import os
 
-profile = input("Enter codechef URL:")
+profile = input("Enter codechef  profile:")
 refresh = input("Enter refresh time in seconds:")
 browser = input("Enter your browser (e.g chrome/firefox")
 count= input("How many views you want?")
@@ -13,7 +13,7 @@ def openURL():
     time.sleep(int(refresh))
 
     for i in range(int(count)):
-        print("Webpage has been viewed")
+        print("Profile has been viewed")
         openURL()
 
 
