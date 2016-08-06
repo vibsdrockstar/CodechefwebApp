@@ -9,7 +9,7 @@ count= input("How many views you want?")
 
 def openURL():
     os.system("TASKILL /F /IM"+browser+".exe")
-    webbrowser.open(url)
+    webbrowser.open(profile)
     time.sleep(int(refresh))
 
     for i in range(int(count)):
