@@ -2,7 +2,7 @@ import webbrowser
 import time
 import os
 
-url = input("Enter codechef URL:")
+profile = input("Enter codechef URL:")
 refresh = input("Enter refresh time in seconds:")
 browser = input("Enter your browser (e.g chrome/firefox")
 count= input("How many views you want?")
